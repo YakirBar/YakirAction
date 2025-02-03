@@ -1,0 +1,14 @@
+name: "My Custom GitHub Action"
+description: "A reusable GitHub Action"
+author: "Your Name"
+inputs:
+  name:
+    description: "The name to greet"
+    required: true
+    default: "World"
+outputs:
+  greeting:
+    description: "The greeting message"
+runs:
+  using: "node16"
+  main: "index.js"
